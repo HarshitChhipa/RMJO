@@ -1,14 +1,16 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import {BrowserModule} from '@angular/platform-browser';
+import {NgModule} from '@angular/core';
 
-import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
-import { LoginComponent } from './Components/login/login.component';
+import {AppRoutingModule} from './app-routing.module';
+import {AppComponent} from './app.component';
+import { NavbarComponent } from './Components/navbar/navbar.component';
+import { OffersCarouselComponent } from './Components/offers-carousel/offers-carousel.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    LoginComponent
+    NavbarComponent,
+    OffersCarouselComponent,
   ],
   imports: [
     BrowserModule,
@@ -17,4 +19,5 @@ import { LoginComponent } from './Components/login/login.component';
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+}
