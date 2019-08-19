@@ -4,7 +4,7 @@ This project was generated with [Angular CLI] version 8.0.4.
 
 ## Install Dependencies
 
-# Run npm install || yarn
+    npm install || yarn
 
 ## Development server
 
