@@ -9,6 +9,8 @@ export class NavbarComponent implements OnInit {
 
   public Items = '2 Items';
 
+  public menuList = ['2 Items', 'Wish List', 'Sign Up']
+
   constructor() {
   }
 
